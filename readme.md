@@ -9,6 +9,7 @@ The GenZ Contextual Chatbot is an AI-powered solution designed to answer user qu
 - **Vector Embeddings:** The system uses FAISS and HuggingFace embeddings to create searchable vector databases.
 - **Contextual Question Answering:** LangChain is used to retrieve the most relevant context and generate insightful responses.
 - **Automated Updates:** The scraper runs periodically using APScheduler to ensure the data remains up-to-date.
+- **Speech Output Integration:** Add Speech Output Integration in Chatbot.
 
 ## Technologies Used
 - **Python** (Streamlit, Pandas, JSON)  
@@ -28,8 +29,8 @@ The GenZ Contextual Chatbot is an AI-powered solution designed to answer user qu
 ## Project Setup
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/myself-nahid/Cohort-02.git
-   cd Cohort-02
+   git clone https://github.com/myself-nahid/GenZ-ChatBot.git
+   cd GenZ-ChatBot
    ```
 2. **Install Requirements:**
    ```bash
@@ -50,12 +51,16 @@ The GenZ Contextual Chatbot is an AI-powered solution designed to answer user qu
 - **Scrape Website Data:** Click the `Scrape and Update Data` button.
 - **Ask Questions:** Enter your query in the input field, and the chatbot will provide an insightful response based on the website content.
 
+## Demos
+- [result01](https://drive.google.com/file/d/16G0BqxRFjN3WZK_HRQ4ISx8pgOCaNMM_/view?usp=drive_link)
+- [result02](https://drive.google.com/file/d/16DZqbMzLma06Z8g2cI4WqFLLBAkOvNAW/view?usp=drive_link)
+
 ## Troubleshooting
 - **Scrapy Errors:** Ensure the working directory is correctly set and dependencies are installed.
 - **Incomplete Answers:** Increase the document chunk size and overlap for better query handling.
 
 ## Future Improvements
-- Add multilingual support.
+- Add multilanguage support.
 - Implement more advanced language models for deeper context understanding.
 - Enable real-time website monitoring for data changes.
 
