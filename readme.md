@@ -29,8 +29,8 @@ The GenZ Contextual Chatbot is an AI-powered solution designed to answer user qu
 ## Project Setup
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/myself-nahid/GenZ-ChatBot.git
-   cd GenZ-ChatBot
+   git clone https://github.com/myself-nahid/Cohort-02.git
+   cd Cohort-02
    ```
 2. **Install Requirements:**
    ```bash
