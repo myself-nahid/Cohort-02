@@ -1,4 +1,5 @@
 # GenZ Contextual Chatbot
+# Cohort-02 (Group Project)
 
 ## Project Overview
 The GenZ Contextual Chatbot is an AI-powered solution designed to answer user queries by scraping data from the GenZMarketing website, processing it into vector embeddings, and retrieving the most accurate responses using a LangChain-powered LLM.
